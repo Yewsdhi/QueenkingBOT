@@ -9,8 +9,8 @@ import yt_dlp
 from pyrogram.types import Message
 from py_yt import Playlist, VideosSearch
 
-from ArchonMusic import config, logger
-from ArchonMusic.helpers import Track
+from AloneX import config, logger
+from AloneX.helpers import Track
 
 
 API_URL = os.environ.get(
