@@ -40,7 +40,7 @@ class Config:
         
         # --- START VIDEO LINK ---
         self.START_IMG = getenv("START_IMG", "https://graph.org/file/c83bb8064b95ee51e515c-6c4626e964f37fc102.jpg")
-        self.START_VIDEO = getenv("START_VIDEO", "https://graph.org/file/3a79f5b7dfb1e423b49d3-eacd9bc472c36d5be6.mp4")
+        self.START_VIDEO = getenv("START_VIDEO", "https://graph.org/file/018eb8460c16f424318f5-4b185c008d38c4a276.mp4")
 
     def check(self):
         missing = [
