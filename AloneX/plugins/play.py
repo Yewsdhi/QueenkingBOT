@@ -1,3 +1,14 @@
+
+async def _bg_preload(track_item):
+    try:
+        from AloneX.core.youtube import YouTube as yt
+        if track_item and not getattr(track_item, "file_path", None):
+            vid = getattr(track_item, "id", None) or getattr(track_item, "url", None)
+            if vid:
+                track_item.file_path = await yt.download(vid, video=bool(getattr(track_item, "video", False)))
+    except Exception:
+        pass
+
 # Copyright (c) 2026 ArchonNetwork 
 # Licensed under the MIT License.
 # This file is part of ArchonMusic
@@ -32,18 +43,7 @@ MSG_STARTING = "➛ Sᴛᴀʀᴛɪɴɢ Sᴛʀᴇᴀᴍ Eɴᴊᴏʏ🎵❤️....
 # 🚀 DIRECT STREAM EXTRACTOR (FAST PLAYBACK)
 # =======================================================
 def get_direct_stream(video_id, is_video):
-    ydl_opts = {
-        "format": "best[height<=?720]" if is_video else "bestaudio/best",
-        "noplaylist": True,
-        "quiet": True,
-        "no_warnings": True,
-    }
-    try:
-        with yt_dlp.YoutubeDL(ydl_opts) as ytdl:
-            info = ytdl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=False)
-            return info['url']
-    except Exception:
-        return None
+    return f"https://music.yukiapi.site/stream/{video_id}?key=yuki_ab4a3f3225e12668d629c73cc30890ac"
 
 # =======================================================
 # 🚀 STYLISH LIVE PROGRESS BAR (MODERN DOTTED STYLE)
