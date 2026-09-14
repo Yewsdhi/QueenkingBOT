@@ -1175,6 +1175,15 @@ class TgCall(PyTgCalls):
             )
 
         if not media.file_path:
+            try:
+                from AloneX.core.youtube import YouTube as yt
+                vid_id = getattr(media, "id", None) or getattr(media, "url", None)
+                if vid_id:
+                    media.file_path = await yt.download(vid_id, video=bool(getattr(media, "video", False)))
+            except Exception as _e:
+                pass
+
+        if not media.file_path:
 
             await msg.edit_text(
                 "⚠️ API Error: "
