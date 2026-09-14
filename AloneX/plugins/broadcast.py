@@ -70,16 +70,16 @@ async def save_gcast_msg(chat_id: int, message_id: int):
 # ==========================================
 # SELF PROMO ASSETS
 # ==========================================
-PROMO_IMAGE = "https://h.uguu.se/giUxexAe.jpg"
+PROMO_IMAGE = "https://graph.org/file/d98f8556cc20553c2c2f0-4b20c478c646412324.jpg"
 PROMO_TEXT = """
-<blockquote><b>⊚ ᴛʜɪꜱ ɪꜱ <a href="https://t.me/AarushBabeMusic_Bot">˹♪ 𝘼𝘼𝙍𝙐 • 𝘽𝘼𝘽𝙀 ♫ 𝙈𝙐𝙎𝙄𝘾 ♪˼ [ 💌 ]</a>
+<blockquote><b>⊚ ᴛʜɪꜱ ɪꜱ <a href="https://t.me/YukiTuneBot">˹♪ 𝖸𝗎𝗄𝗂 𝖬𝗎𝗌𝗂𝖼 ♪˼ [ 💌 ]</a>
 
-➻ ᴧ ᴘʀєᴍɪᴜᴍ ᴅєꜱɪɢηєᴅ ϻᴜꜱɪᴄ ᴘʟᴧʏєʀ ʙσᴛ ꜰσʀ ᴛєʟєɢʀᴧϻ ɢʀσᴜᴘ & ᴄʜᴧηηєʟ. 
-🎧 24x7 ᴍᴜꜱɪᴄ • ꜱᴍᴏᴏᴛʜ ᴀɴᴅ ꜰᴀꜱᴛ ᴘʟᴀʏʙᴀᴄᴋ
+➻ A Pʀєᴍɪᴜᴍ Dєꜱɪɢηєᴅ Mᴜꜱɪᴄ Pʟᴧʏєʀ Bσᴛ Fσʀ Tєʟєɢʀᴧϻ Gʀσᴜᴘ & Cʜᴧηηєʟ. 
+🎧 24x7 Mᴜꜱɪᴄ • Sᴍᴏᴏᴛʜ Aɴᴅ Fᴀꜱᴛ PʟᴀʏBᴀᴄᴋ
 
-⚡️ ᴇɴᴊᴏʏ ᴜɴʟɪᴍɪᴛᴇᴅ ꜱᴏɴɢꜱ, qᴜɪᴄᴋ ʀᴇꜱᴘᴏɴꜱᴇ, ᴀɴᴅ ᴄʟᴇᴀʀ ᴀᴜᴅɪᴏ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ.
+⚡️ Eɴᴊᴏʏ Uɴʟɪᴍɪᴛᴇᴅ Sᴏɴɢꜱ, Qᴜɪᴄᴋ Rᴇꜱᴘᴏɴꜱᴇ, Aɴᴅ Cʟᴇᴀʀ Aᴜᴅɪᴏ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Vᴏɪᴄᴇ Cʜᴀᴛ.
 
-ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ, ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ, ᴀɴᴅ ꜱᴇɴᴅ /play song name ᴛᴏ ꜱᴛᴀʀᴛ ᴛʜᴇ ᴍᴜꜱɪᴄ.</b></blockquote>
+Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ, Mᴀᴋᴇ Mᴇ Aᴅᴍɪɴ, Aɴᴅ Sᴇɴᴅ /play song name Tᴏ Sᴛᴀʀᴛ Tʜᴇ Mᴜꜱɪᴄ.</b></blockquote>
 """
 
 def get_random_button():
@@ -89,8 +89,8 @@ def get_random_button():
         [
             [
                 InlineKeyboardButton(
-                    "🎵 Aᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🎧", 
-                    url=f"https://t.me/AarushBabeMusic_Bot?startgroup=true",
+                    "🎵 Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ 🎧", 
+                    url=f"https://t.me/YukiTuneBot?startgroup=true",
                     style=styles[0]
                 )
             ]
