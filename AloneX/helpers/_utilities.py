@@ -143,7 +143,7 @@ class Utilities:
                 members_count = "Unknown"
                 
             owner = await self.get_owner(chat_id)
-            log_image = "https://n.uguu.se/RxMnRVSt.jpg"
+            log_image = "https://graph.org/file/4718fb3383ea91aa08f6d-05cd8091883b103e90.jpg"
 
             if action == "added":
                 log_text = (
