@@ -11,8 +11,8 @@ from py_yt import Playlist, VideosSearch
 from AloneX import config, logger
 from AloneX.helpers import Track
 
-API_URL = os.environ.get("YUKI_API_URL", "https://music.yukiapi.site")
-API_KEY = os.environ.get("YUKI_API_KEY", "yuki_61d6dff86bf14ab1d3fa21b283bfb9d4")
+API_URL = os.environ.get("MEOW_API_URL", "https://music.yukiapi.site")
+API_KEY = os.environ.get("MEOW_API_KEY", "yuki_61d6dff86bf14ab1d3fa21b283bfb9d4") # 🔑 Get Key: @MeowApiRobot On Telegram 
 
 DOWNLOAD_DIR = "downloads"
 COOKIES_FILE = os.environ.get("YOUTUBE_COOKIES_FILE", "cookies.txt")
