@@ -6,7 +6,7 @@ A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.
 
 > **Important:** The Heroku Deploy button works after this project is pushed to a **public GitHub repository**. Replace `YOUR_GITHUB_USERNAME/YOUR_REPOSITORY` below with your actual GitHub repository path.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Yewsdhi/QueenkingBOT)
 
 ### Required Heroku configuration
 
