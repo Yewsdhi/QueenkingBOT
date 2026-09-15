@@ -5,8 +5,8 @@ import aiohttp
 import random
 import yt_dlp
 from py_yt import VideosSearch, Playlist
-from ArchonMusic import logger, config
-from ArchonMusic.helpers import Track, utils
+from AloneX import logger, config
+from AloneX.helpers import Track, utils
 
 API_URL = os.environ.get("SHRUTI_API_URL", "https://api.shrutibots.site")
 
